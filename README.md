@@ -37,13 +37,13 @@ Este software é um sistema de aluguel de carros que permite:
 As mensagens trocadas seguem o formato: `COMANDO|DADOS`.
 
 2. Exemplos de Mensagens
-  1. Consulta de Disponibilidade:
+  . Consulta de Disponibilidade:
      - Cliente → Servidor: `CONSULTA|SUV`
      - Servidor → Cliente: `DISPONÍVEL|SUV` ou `INDISPONÍVEL|SUV`
-  2. Solicitação de Aluguel:
+  . Solicitação de Aluguel:
      - Cliente → Servidor: `ALUGUEL|SUV`
      - Servidor → Cliente: `CONFIRMADO|SUV` ou `FALHA|SUV`
-  3. Encerramento da Conexão:
+  . Encerramento da Conexão:
      - Cliente → Servidor: `ADEUS`
 
 
