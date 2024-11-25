@@ -87,8 +87,8 @@ Pré-requisitos
 2. Configure o Código:
    No arquivo conexao_bd.py, insira as credenciais corretas para o banco de dados:
    ```
-      "user="root"         # Usuário padrão do MariaDB
-      password=""         # Senha padrão no XAMPP (vazia)"
+      user="root"         # Usuário padrão do MariaDB
+      password=""         # Senha padrão no XAMPP (vazia)
    ```
 3. Obtenha os IPs das Máquinas:
   Execute meuIP.py para descobrir os IPs das máquinas.
