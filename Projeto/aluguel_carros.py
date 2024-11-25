@@ -15,7 +15,7 @@ mensagens_recebidas = queue.Queue()
 # Função para receber mensagens
 def receber_mensagens():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind(("0.0.0.0", porta))
+    server_socket.bind(("10.199.12.234", porta))
     server_socket.listen(1)
     
     conn, addr = server_socket.accept()
